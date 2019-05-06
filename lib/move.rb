@@ -28,7 +28,11 @@ elsif
 end
 
 def move(board, index, character = "X")
-  
+
   board[index] = character
-  board
+  
+end
+
+def update_array_at_with(array, index, value)
+  array[index] = value
 end
