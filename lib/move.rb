@@ -9,6 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(input)
+=begin
   begin  # "try" block
     input = input.to_i - 1
     rescue Exception => ex
@@ -16,6 +17,8 @@ def input_to_index(input)
   rescue Exception => ex
     return -1
   end
+  =end
+  
 end
 
 def move(board, index, character = "X")
