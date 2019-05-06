@@ -18,11 +18,11 @@ def input_to_index(input)
     return -1
   end
 =end
-  if input.to_i.is_a? Integer
-  return input.to_i-1
-else
+  if input.is_a? Integer
+  return input - 1
+elsif
   return -1
-end
+  end
 end
 
 def move(board, index, character = "X")
