@@ -28,9 +28,10 @@ elsif
 end
 
 def move(board, input, character = "X")
+  if index.is_a? Integer
 
-  board[input] = character
-
+  board[index] = character
+end
 end
 
 
