@@ -28,6 +28,7 @@ elsif
 end
 
 def move(board, index, character = "X")
+  index = index.to_i
   board[index] = character
   board
 end
