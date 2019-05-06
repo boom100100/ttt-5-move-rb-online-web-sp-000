@@ -28,10 +28,13 @@ elsif
 end
 
 def move(board, input, character = "X")
+  begin
 
-  board[input_to_index(input)] = character
+  end
+  board[input] = character
 
 end
+
 
 def update_array_at_with(array, index, value)
   array[index] = value
