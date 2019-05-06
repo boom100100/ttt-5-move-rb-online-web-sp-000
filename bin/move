@@ -12,5 +12,5 @@ print "Welcome to Tic Tac Toe!"
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-move(board, index.to_i)
+move(board, index)
 display_board(board)
