@@ -28,9 +28,7 @@ elsif
 end
 
 def move(board, input, character = "X")
-  begin
 
-  end
   board[input] = character
 
 end
