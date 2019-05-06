@@ -19,7 +19,7 @@ def input_to_index(input)
   end
 =end
   if input.to_i.is_a? Integer
-  return input.to_i
+  return input.to_i-1
 else
   return -1
 end
