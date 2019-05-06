@@ -27,7 +27,7 @@ elsif
 =end
 end
 
-def move(board, index, character = "X")
+def move(board, input, character = "X")
 
   board[input_to_index(input)] = character
 
