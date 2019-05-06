@@ -21,7 +21,7 @@ def input_to_index(input)
   if input.is_a? Integer
   return input - 1
 elsif
-  return -1
+  -1
   end
 end
 
