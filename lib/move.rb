@@ -23,6 +23,7 @@ def input_to_index(input)
 else
   return -1
 end
+end
 
 def move(board, index, character = "X")
   index = index.to_i
