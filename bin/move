@@ -11,5 +11,5 @@ index = input_to_index(gets.split)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-move(board, index, "X")
+board = move(board, index.to_i, "X")
 display_board(board)
