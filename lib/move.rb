@@ -17,22 +17,12 @@ def input_to_index(input)
   rescue Exception => ex
     return -1
   end
-
-=begin
-  if input.is_a? Integer
-  return input.to_i - 1
-elsif
-  -1
-  end
-=end
 end
 
 def move(board, index, character = "X")
   if index.is_a? Integer
-
   board[index] = character
 end
-
 end
 
 
